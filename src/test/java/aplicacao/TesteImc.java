@@ -9,5 +9,6 @@ public class TesteImc {
     public void testSum() {
     	testeDeTeste calculator = new testeDeTeste();
         assertEquals(8, calculator.imc(200, 5));
+        
     }
 }
