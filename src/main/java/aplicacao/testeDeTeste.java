@@ -9,6 +9,7 @@ public class testeDeTeste {
     public int Imc(int peso, int altura) {
         return peso / (altura * altura);
     
+        
     
     } 
 }
