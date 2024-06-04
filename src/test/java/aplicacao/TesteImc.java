@@ -4,10 +4,10 @@ import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
-public class TesteSoma {
+public class TesteImc {
     @Test
     public void testSum() {
-    	SomaSimples calculator = new SomaSimples();
-        assertEquals(5, calculator.sum(2, 3));
+    	testeDeTeste calculator = new testeDeTeste();
+        assertEquals(8, calculator.imc(200, 5));
     }
 }
