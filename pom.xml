@@ -1,9 +1,9 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>TrabalhoTeste</groupId>
-  <artifactId>TrabalhoTeste</artifactId>
+  <groupId>MinhaPipeline9</groupId>
+  <artifactId>MinhaPipeline9</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>TrabalhoTeste</name>
+  <name>MinhaPipeline9</name>
   <description>MinhaPipeline9</description>
   
   <properties>
@@ -41,7 +41,7 @@
                 <version>3.0.0-M5</version> <!-- Versão do plugin -->
                 <configuration>
                     <includes>
-                        <include>**/*testeDeTeste.java</include>
+                        <include>**/*testeImc.java</include>
                     </includes>
                 </configuration>
             </plugin>
@@ -49,9 +49,3 @@
     </build>
   
 </project>
-
-
-
-
-
-
